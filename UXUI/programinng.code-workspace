@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "../../../programinng"
+		},
+		{
+			"path": "../../../de-ta分析"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "../../../mapsan"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "UXUI"
+	}
+}

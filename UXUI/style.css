@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: #f4f4f4;
+}
+
+.app-container {
+  width: 100%;
+  max-width: 375px; /* スマホ幅 */
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  background-color: #1e88ff;
+  color: white;
+  text-align: center;
+  padding: 1em;
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+main {
+  padding: 1em;
+}
+
+.status h2,
+.menu h2 {
+  font-size: 1.2em;
+  margin-bottom: 0.5em;
+}
+
+.status-message {
+  font-size: 1.2em;
+  margin-bottom: 1em;
+}
+
+.status-message.green {
+  color: green;
+}
+
+.status-buttons {
+  display: flex;
+  gap: 0.5em;
+  flex-wrap: wrap;
+}
+
+.btn {
+  padding: 0.4em 0.8em;
+  border: 2px solid;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 0.9em;
+  background-color: white;
+}
+
+.green {
+  color: green;
+  border-color: green;
+}
+
+.yellow {
+  color: orange;
+  border-color: orange;
+}
+
+.red {
+  color: red;
+  border-color: red;
+}
+
+.menu-image {
+  width: 100%;
+  border-radius: 8px;
+  margin-top: 0.5em;
+}
