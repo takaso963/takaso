@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>学食状況</title>
+  <link rel="stylesheet" href="style.css"> <!-- 外部CSSファイルをリンク -->
+</head>
+<body>
+  <div class="mockup-container">
+    <div class="app-container">
+      <header class="header">学食状況</header>
+      <main>
+  <!-- 現在の混雑状況 -->
+  <section class="status">
+    <h2>現在の混雑状況</h2>
+    <p class="status-message green">空いています</p>
+    
+  </section>
+
+  <!-- 今日のメニュー: スライド対応 -->
+  <section class="menu">
+    <h2 id="menu-title">今日のメニュー</h2>
+    <div class="slider-container">
+      <img src="hiiragi1.jpg" alt="メニュー1" class="menu-image" id="current-image">
+      <button id="next-button" class="slider-button">次へ</button>
+    </div>
+  </section>
+</main>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
